@@ -4,7 +4,7 @@ const {Storage} = require("@google-cloud/storage");
 const storage = new Storage();
  
 // Membuat nama bucket (jangan lupa harus unik)
-const bucketName = 'cloud-storage-mlgc' 
+const bucketName = 'lek-muginah-upload-pendahuluan-tahun1945-katene-2017' 
 const filePath = './image/dicoding-header-logo.png'
  
 // Fungsi untuk membuat bucket jika tidak ditemukan.

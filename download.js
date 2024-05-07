@@ -1,7 +1,7 @@
 const {Storage} = require('@google-cloud/storage');
  
 const storage = new Storage();
-const bucketName = 'cloud-storage-mlgc'
+const bucketName = 'lek-muginah-upload-pendahuluan-tahun1945-katene-2017'
 const fileName = 'dicoding-header-logo.png'
  
 async function download() {
